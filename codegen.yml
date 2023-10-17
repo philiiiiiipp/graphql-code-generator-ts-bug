@@ -1,0 +1,9 @@
+generates:
+  ./types.ts:
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-generic-sdk
+    schema:
+      - ./schema.graphql
+    documents: [Query/**/*.ts]

@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "test": "npm run generate && npm run lint",
+    "generate": "graphql-codegen",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "5.0.0",
+    "@graphql-codegen/typescript": "4.0.1",
+    "@graphql-codegen/typescript-generic-sdk": "4.0.0",
+    "@graphql-codegen/typescript-operations": "4.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "graphql-tag": "2.12.6"
+  }
+}
